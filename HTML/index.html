@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Viagens</title> <link rel="stylesheet" href="CSS\indexstyle.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <!--A tag body contém todos os elementos inseridos na página-->
@@ -44,7 +45,8 @@
                 <div class="card-content">
                     <h1>Passeio Noturno</h1>
                     <ul>
-                        <li><i></i>Diversão</li>
+                        <li><i data-feather="smile"></i>Diversão</li>
+                        <li><i data-feather="heart"></i>Companhia</li>
                     </ul>
                 </div>
             </div>
@@ -59,7 +61,8 @@
                 <div class="card-content">
                     <h1>Passeio de Barcos</h1>
                     <ul>
-                        <li><i></i>Emoção</li>
+                        <li><i data-feather="anchor"></i>Emoção</li>
+                        <li><i data-feather="activity"></i>Adrenalina</li>
                     </ul>
                 </div>
             </div>
@@ -74,13 +77,16 @@
                 <div class="card-content">
                     <h1>Tribos Locais</h1>
                     <ul>
-                        <li><i></i>Cultura</li>
+                        <li><i data-feather="coffee"></i>Cultura</li>
+                        <li><i data-feather="book-open"></i>Conhecimento</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>
