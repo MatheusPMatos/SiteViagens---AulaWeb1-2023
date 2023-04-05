@@ -141,3 +141,10 @@ header nav p {
     border-radius: 8px 0 0 8px;
     padding: 5px 10px;
 }
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size:  0.8rem;
+    color: white;
+    font-weight: bold;
+}
