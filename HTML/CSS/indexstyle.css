@@ -148,3 +148,34 @@ header nav p {
     color: white;
     font-weight: bold;
 }
+
+.servicos {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.servicos .servicos-card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    
+}
