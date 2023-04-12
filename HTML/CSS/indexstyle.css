@@ -35,6 +35,7 @@ header nav {
 }
 header nav ul {
     display: flex;
+    color: whitesmoke;
     
 }
 header nav ul li {
@@ -43,7 +44,7 @@ header nav ul li {
 
 header nav p {
     font-weight: bold;
-    color: green;
+    color: whitesmoke;
     font-size:x-large;
     font-style:inherit;
 
@@ -87,7 +88,7 @@ header nav p {
 .pacotes .card {
     width: 250px;
     height: 350px;
-    background: white;
+    background-color: beige;
     border-radius: 24px 0;
     margin: 25px;
     position: relative;
@@ -150,6 +151,7 @@ header nav p {
 }
 
 .servicos {
+    background-color: bisque;
     padding: 15px;
     text-align: center;
 
@@ -177,5 +179,73 @@ header nav p {
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+
+}
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.servicos .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+
+}
+
+.servicos .card h3 {
+    font-weight: : bold;
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.contatos {
+    padding: 15px;
+    background-color: beige;
+    font-size: 0;
     
+
+}
+
+.contatos h4 {
+    font-size: medium;
+    font-style: normal;
+}
+
+.contatos h2 {
+    font-style: inherit;
+    font: x-large sans-serif;
+
+}
+
+
+
+.contatos .redes .redes-rede {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: auto;
+    font-size: medium; 
+    margin: auto;
+}
+
+.contatos .redes .redes-rede p {
+    padding: 5px;
+}
+.contatos .redes .redes-rede h4 {
+    padding: 5px;
+    font-size: medium;
+}
+.contatos .redes .redes-rede svg:hover {
+    transform: scale(1.1);
 }
